@@ -1,0 +1,33 @@
+/*
+nodemon > reload automatico do sistema, não precisa reiniciar o código
+npm install nodemon
+
+mongoDB > banco de dados não relacional
+noSQL
+possibilidade de ter vários níveis de informação dentro de uma tabela
+em cada colection você pode ter vários documentes 
+um banco é um conjunto de coleções 
+
+Download MongoDb, comunity server (gratuito)
+    Primeria utilização:
+    - cd program files
+    - cd mongoDB
+    - cd Server
+    - cd 3.6
+    - cd bin 
+    -> criar uma pasta c:/data/db 
+
+    Painel de controle > Sistema > Config avançada de sistema, avançado, variaveis de ambiente, path 
+    - editar, novo program filese/mongodb/server/3.6/bin, fechar e abrir o terminal de novo
+Executar:
+    No terminal acessar: 
+    C:\Program Files\MongoDB\Server\3.6\bin\ 
+    executar mongod 
+
+Abrir Robo3t (fazer download)  > cliente de  mongo 
+- create > localhost (newconection) > save (só funciona se o mongo estiver rodando no cmd)
+
+CRUD 
+ > criar, ler, atualizar e deletar
+
+mkdir > cria pasta pelo cmd i
